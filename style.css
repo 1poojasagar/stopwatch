@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  width: 100%;
+  overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 40px;
+}
+.stopwatch{
+  background-color: orange;
+  padding: 27px;
+  color: white;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+.span,.button{
+  margin-top: 30px;
+}
+button{
+  width: 21%;
+    padding: 18px;
+    margin: 10px;
+    border: 1px solid white;
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+    font-size: 1.2rem;
+  
+}
+span{
+  font-size: 2rem;
+}
+h1{
+  font-weight: normal;
+  margin: 40px;
+  letter-spacing: 3px;
+}
+ul{
+  list-style-type: none;
+}
+@media(max-width:1050px){
+  h1{
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  span {
+    font-size: 1.5rem;
+}
+button {
+  width: 20%;
+  padding: 8px;
+  font-size: 1rem;
+}
+}
